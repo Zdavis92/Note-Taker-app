@@ -25,4 +25,19 @@ router.post('/api/notes', (req, res) => {
     )
     res.json(newNote);
 });
+
+router.delete(`/api/notes/:id`, (req, res) => {
+    let target = JSON.parse(req.params.id);
+    let newNotes = notes.filter((note) => {
+        if (note.id != target) {
+            return true;
+        }
+    });
+    fs.writeFileSync(
+        path.join(__dirname, '../db/db.json'),
+        JSON.stringify({ "notes": newNotes }, null, 2)
+    )
+    console.log('deleted note');
+    res.json(newNotes);
+})
 module.exports = router;
