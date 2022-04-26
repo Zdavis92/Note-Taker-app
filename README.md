@@ -5,6 +5,6 @@ An app that allows users to create notes the can be saved and deleted.
 Writen with HTML, CSS, Javascript, and uses npm express.
 ## Screenshots
 ![Note Taker landing](https://github.com/Zdavis92/Note-Taker-app/blob/main/screenshots/Note%20Taker%20App%20landing.png)
-![Note Taker landing](https://github.com/Zdavis92/Note-Taker-app/blob/main/screenshots/Note%20Taker%20App%20landing.png)
+![Note Taker notes](https://github.com/Zdavis92/Note-Taker-app/blob/main/screenshots/Note%20Taker%20App%20notes%20page.png)
 ## Links
 https://zdavis92.github.io/
