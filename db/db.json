@@ -1,14 +1,24 @@
 {
   "notes": [
     {
-      "title": "New Note 4",
-      "text": "this is the forth note",
+      "title": "New Note",
+      "text": "this is a new note",
       "id": 5
     },
     {
-      "title": "New Note 7",
+      "title": "New Note 2",
       "text": "this is a now note",
       "id": 7
+    },
+    {
+      "title": "New note 3",
+      "text": "note stuff",
+      "id": 12
+    },
+    {
+      "title": "New note 4",
+      "text": "note stuff",
+      "id": 13
     }
   ]
 }
